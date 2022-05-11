@@ -1,0 +1,27 @@
+# CART-and-Decision-Tree-Hyperparameters
+
+CART : Classification And Regression Tree 分类和回归树
+
+在 scikit-learn 中使用的是 CART 的方式创建决策树
+
+
+
+n 是数据集中样本维度的个数
+
+m 是数据集中样本的个数
+
+决策树做预测（回归问题）的复杂度：O(logm)
+
+决策树训练过程的复杂度：O(n\*m\*logm)
+
+
+
+容易产生过拟合（非参数学习都非常容易出现）
+
+==> 减枝，降低复杂度解决过拟合
+
+若不对 scikit-learn 中的决策树进行限制，那么这棵树会一直向下进行划分，直到基尼系数变为 0 为止
+
+更多的超参数来解决 决策树 的过拟合问题 ==> 见同目录下在 Jupyter Notebook 中的代码
+
+![image-20220511223326305](05-CART-and-Decision-Tree-Hyperparameters.assets/image-20220511223326305.png)
