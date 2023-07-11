@@ -140,7 +140,7 @@ def try_split(X, y):
 
 对初始数据集进行一次划分：
 
-```
+```python
 best_entropy, best_d, best_v = try_split(X, y)
 print("best_entropy =", best_entropy)
 print("best_d =", best_d)
